@@ -54,6 +54,13 @@ class TaskAdapter(val listener: Listener) : ListAdapter<Task, TaskAdapter.TaskVi
 
                 checkIsDone.isChecked = task.isDone
 
+/*
+                if (task.parentId == null) {
+                    setOnClickListener {
+                        listener.onTaskClicked(task)
+                    }
+                }
+*/
                 setOnClickListener {
                     listener.onTaskClicked(task)
                 }

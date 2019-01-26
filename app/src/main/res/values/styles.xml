@@ -28,6 +28,12 @@
         <item name="android:textColor">@color/colorSecondaryText</item>
     </style>
 
+    <style name="TaskDetail" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
     <style name="IconButton">
         <item name="android:background">?selectableItemBackgroundBorderless</item>
         <item name="android:scaleType">fitXY</item>
